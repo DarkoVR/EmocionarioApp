@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_warning"
+            android:tint="@color/button_grey"
+            android:title="Ayuda"
+            android:id="@+id/nav1"/>
+        <item
+            android:icon="@drawable/ic_book"
+            android:tint="@color/button_grey"
+            android:title="Referencias"
+            android:id="@+id/nav2"/>
+    </group>
+</menu>

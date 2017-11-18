@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="120dp"
+                android:stretchColumns="1">
+                <Button
+                    android:id="@+id/btReproducir"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:text="Reproducir 'Symphony no. 5'"
+                    app:srcCompat="@drawable/ic_account"/>
+
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/felicidad"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Felicidad         "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckFelicidad"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/envidia"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Envidia          "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckEnvidia"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/compasion"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Compasión      "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckCompasion"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/aceptacion"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Aceptación     "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckAceptacion"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/admiracion"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Admiración       "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckAdmiracion"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/euforia"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Euforia           "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckEuforia"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/gratitud"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Gratitud          "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckGratitud"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/confusion"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Confusión         "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckConfusion"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/placer"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Placer            "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckPlacer"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/deseo"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Deseo           "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckDeseo"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/ilusion"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Ilusión          "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckIlusion"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="60dp"
+                        android:src="@drawable/serenidad"/>
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Serenidad      "
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                    <CheckBox
+                        android:id="@+id/ckSerenidad"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:theme="@style/MyCheckBox"/>
+                </TableRow>
+
+                <Button
+                    android:id="@+id/btMusica"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Siguiente melodia" />
+            </TableLayout>
+        </ScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.v4.widget.DrawerLayout>

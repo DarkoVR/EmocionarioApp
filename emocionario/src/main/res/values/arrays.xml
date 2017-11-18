@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="emotion">
+        <item>Felicidad</item>
+        <item>Envidia</item>
+        <item>Compasión</item>
+        <item>Aceptación</item>
+        <item>Admiración</item>
+        <item>Euforia</item>
+        <item>Gratitud</item>
+        <item>Confusión</item>
+        <item>Placer</item>
+        <item>Deseo</item>
+        <item>Ilusión</item>
+        <item>Serenidad</item>
+    </string-array>
+    <string-array name="emotion_desc">
+        <item>The Palais Garnier which locates in Paris was built from 1861 for
+        the Paris Opera.
+        </item>
+        <item>Piazza del Duomo the cathedral which locates in Florence.</item>
+        <item>Manhattan is the district in New York City</item>
+        <item>Senso-ji is the Shrine locates in Asakusa Tokyo</item>
+        <item>Sultan Ahmed Mosque is mosque locates in Istabul, Turkey</item>
+        <item>Table Mountain is mountain and park locates in Cape Town, South Africa.</item>
+        <item>The Palais Garnier which locates in Paris was built from 1861 for
+        the Paris Opera.
+        </item>
+        <item>Piazza del Duomo the cathedral which locates in Florence.</item>
+        <item>Manhattan is the district in New York City</item>
+        <item>Senso-ji is the Shrine locates in Asakusa Tokyo</item>
+        <item>Sultan Ahmed Mosque is mosque locates in Istabul, Turkey</item>
+        <item>Table Mountain is mountain and park locates in Cape Town, South Africa.</item>
+    </string-array>
+    <string-array name="emotion_details">
+        <item>La felicidad es diferente para cada persona.
+        Somos felices cuando hacemos lo que nos
+        gusta, cuando disfrutamos de nuestras
+        Capacidades, de lo que podemos
+        o sabemos hacer.
+        </item>
+        <item>Algunos dicen que la envidia y los celos
+        Son lo mismo. No es así, aunque ambas
+        Emociones van de la mano, mezclándose
+        Y avisándose mutuamente. Son parásitos
+        Que devoran tu alegría. No les interesa que
+        a ti te vaya mejor, sino que al otro le vaya peor.
+        </item>
+        <item>Hay quienes la llaman “conmiseración”
+        o “lástima”.
+        La compasión es la pena que nos provoca
+        la desgracia de los demás.
+        </item>
+        <item>Sentimos aceptación cuando nos quieren tal
+        Como somos, con nuestra virtudes y con
+        Todo aquello que tengamos que mejorar.
+        También sentimos aceptación cuando
+        Los demás reconocen y valoran nuestras
+        Capacidades y acciones.
+        </item>
+        <item>La admiración es el aprecio que sentimos
+        Por alguien que tiene grandes cualidades
+        O por algo que está fuera de lo común.
+        Por ejemplo:
+        •	Una atleta que intenta supersarse a sí misma.
+        •	Un explorador que viaja a una selva desconocida.
+        •	Una amiga que dibuja especialmente bien.
+        </item>
+        <item>La euforia es un desborde de energía
+        Positiva. Te brinda la fuerza para enfrentar
+        Momentos de adversidad o para festejar
+        Con un entusiasmo muy por encima
+        Del habitual.
+        </item>
+        <item>La gratitud es el alma de la palabra “gracias”.
+        Y se multiplica cada vez que eres capaz de
+        Ver, en lo cotidiano, un regalo: en la sonrisa
+        De un amigo, en una canción, en la comida…
+        LA gratitud te ensala a disfrutar más de
+        La vida. Es la entrada a la felicidad.
+        </item>
+        <item>La confusión es una mezcla desordenada
+        De sentimientos. Imagina que tu gatito
+        Ha hecho pis en tu juguete favorito: quizás
+        Sientas ira, pero puede que también ternura.
+        Experimentamos confusión ante un desorden
+        O una mezcla que no comprendemos del
+        Todo. Y eso nos paraliza. ¿Siento ira o
+        Ternura? Siento admiración y tristeza a la vez.
+        ¿Será envidia?
+        </item>
+        <item>El placer es la  satisfacción y la alegría
+        Producidas por algo que nos gusta mucho.
+        Puedes hallar placer en actividades muy
+        Diferentes: al fantasear con otros mundos,
+        Al mirar cosas bonitas, al resolver problemas
+        Difíciles, al jugar, al sentirse amado…
+        </item>
+        <item>El deseo es un impulso que nos mueve
+        Hacia algo que queremos. Deseamos aquello
+        que no tenemos y eso nos invita a buscarlo.
+        El deseo es un motor de nuestros actos…
+
+        Puedes sentir deseos muy derivados: deseos
+        de ser más grandes, de aprender a nadar, de
+        estar con tus abuelos, de ser bombero…
+        </item>
+        <item>La ilusión es la esperanza de que se cumplirá
+        algo que deseamos. Tener ilusiones es
+        Una de las mejores maneras para disfrutar
+        de la vida y hacer las cosas con energía.
+        </item>
+        <item>La serenidad es una sensación de calma y
+        Armonía. Nace en lo mas profundo de tu ser
+        Y se extiende hasta llegar a tus ojos.
+        Una persona serena tranquila,
+        Apacible y, además, pide las cosas
+        Con amabilidad y dulzura.
+        </item>
+    </string-array>
+    <string-array name="place_locations">
+        <item>Plantar un árbol, encajar las piezas
+        De un puzzle, hornear un pastel, hacer
+        Un mueble, escribir un poema… Hay muchas
+         Actividades que te pueden hacer feliz, si las
+        Ves como una oportunidad para disfrutar.
+        La felicidad es una sensación de satisfacción
+        Hacia tu propia persona, no la confundas
+        Con la Alegría.
+        </item>
+        <item>Los celos te dificultan compartir aquello que consideras tuyo,
+        Como el amor de un ser querido. La envidia, en cambio, no nace
+         de lo que tu tienes, sino de lo que el otro tiene: es la tristeza que
+        sientes cuando alguien posee aquello que tu deseas.
+        </item>
+        <item>Nos motiva a ayudar a quien está sufriendo.
+        Puede ser un pariente o un desconocido.
+        Incluso puede tratarse del personanje que
+        Habita en un libro, como un zorro que  ha
+        Perdido a su familia. Eso nos despierta
+        El deseo de abrazarlo para aliviar su tristeza.
+        Si un ser querido la está pasando mal y no lo
+        Ayudamos, es muy probable que entremos
+        En el territorio del remordimiento.
+        </item>
+        <item>Los aplausos, las palabras cálidas, una
+        Sonrisa, un abrazo y cualquier otro gesto
+        cuyo fin sea mostrarnos aprecio.
+        La falta de aceptación hace que nos
+        Sintamos incomprendidos.
+        </item>
+        <item>Sí, pero hay que saber verlo. Algunas
+        Personas poseen cualidades que nosotros
+        No tenemos, o son capaces de hacer
+        Cosas que nosotros no podemos.
+        Por eso, las admiramos.
+        Para admirar a los demás debemos ser
+        Conscientes de nuestras limitaciones.
+        Pero si estas nos entristecen y nos impiden
+        Valorar al otro, aparece la envidia.
+        </item>
+        <item>El extraordinario bienestar que experimentas.
+        Por eso te muestras tan optimista y crees
+        Que puedes superar cualquier reto.
+        La euforia es lo opuesto al desaliento.
+        </item>
+        <item>Cuando tenía diez años, mi abuela me dio
+        Un “diario de la gratitud” y, al oído, me dijo:
+        -Yo tengo uno igual. Cada noche, escribo
+        En él las cosas por las que estoy agradecida.
+        Después, al colocarlo bajo mi almohada,
+        Sucede algo maravilloso: el contenido
+        Del diario se mente en mis sueños para
+        Convertirse en el Palacio Feliz… y su felicidad
+        Me acompaña durante todo el día siguiente.
+        </item>
+        <item>Si estás confundido, no sabrás exactamente
+        Qué te ocurre. Tranquilo, a todos nos pasa en
+        Algunas ocasiones: intenta averiguar de qué
+        Emociones se compone tu confusión.
+        La confusión, imprevisible y caótica, puede
+        Llevar al miedo.
+        </item>
+        <item>Para sentir el placer debes concentrarte.
+        Imagina que tienes delante un jugo. Puedes
+        Bebértelo rápidamente para saciar tu sed,
+        Pero también puedes concentrarte en
+        Su sabor y disfrutarlo sin prisas. En definitiva,
+        Sentir el placer que te proporciona.
+        Llevar una vida placentera nos hace
+        Sentirnos agradecidos.
+        </item>
+        <item>No. Hay deseos muy fuertes, muy profundos.
+        Deseas ser médico y estudiad durante
+        Mucho tiempo para conseguirlo. Y hay
+        deseos  caprichosos, fugases: los antojos.
+        Ves una foto de la cena de Nochebuena
+        Y te dan ganas de comerte un dulce navideño.
+        Un deseo cumplido nos da la Satisfacción.
+        </item>
+        <item>Podemos ponerle ilusión a casi todo: a tener
+        Un hermano, a celebrar nuestro cumpleaños,
+        A ir al colegio, a jugar con los amigos…
+        La ilusión en un ingrediente con el que
+        Le damos sabor a la vida.
+        Cuando estamos ilusionados, se activa
+        el entusiasmo.
+        </item>
+        <item>Sí. Lo hace a través de los ojos, otorgándote
+        Una visión especial. Un superpoder, con el
+        Que puedes ver más claro lo que sucede y lo
+        Que ha sucedido. Por eso, por ejemplo, se te
+        Pasa el enojo cuando descubres que algo no
+        Tenía realmente importancia.
+        Curiosamente, la serenidad se puede ejercitar
+        Como si fuese un musculo.
+        Y entretenerla ayuda a aumentar
+        Nuestra Felicidad.
+        </item>
+    </string-array>
+    <array name="emotion_bold_image">
+        <item>@drawable/felicidad</item>
+        <item>@drawable/envidia</item>
+        <item>@drawable/compasion</item>
+        <item>@drawable/aceptacion</item>
+        <item>@drawable/euforia</item>
+        <item>@drawable/gratitud</item>
+        <item>@drawable/confusion</item>
+        <item>@drawable/placer</item>
+        <item>@drawable/deseo</item>
+        <item>@drawable/ilusion</item>
+        <item>@drawable/serenidad</item>
+    </array>
+    <array name="emotion_image">
+        <item>@drawable/felicidad</item>
+        <item>@drawable/envidia</item>
+        <item>@drawable/compasion</item>
+        <item>@drawable/aceptacion</item>
+        <item>@drawable/admiracion</item>
+        <item>@drawable/euforia</item>
+        <item>@drawable/gratitud</item>
+        <item>@drawable/confusion</item>
+        <item>@drawable/placer</item>
+        <item>@drawable/deseo</item>
+        <item>@drawable/ilusion</item>
+        <item>@drawable/serenidad</item>
+    </array>
+</resources>

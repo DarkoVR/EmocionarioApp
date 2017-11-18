@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_grey">#424242</color>
+    <color name="medium_grey">#9E9E9E</color>
+    <color name="button_grey">#757575</color>
+    <color name="red">#DA1515</color>
+    <color name="blue">#20BAA4</color>
+    <color name="verde">#00FF00</color>
+    <color name="amarillo">#FFFF00</color>
+    <color name="verde_f">#008000</color>
+    <color name="aqua">#00FFFF</color>
+</resources>
